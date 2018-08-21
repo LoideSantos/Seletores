@@ -1,0 +1,42 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+tr:nth-child(odd){
+    background-color: #CCC;
+}
+
+tr:nth-child(2) td:nth-child(2),tr:nth-child(3) td:nth-child(2),
+tr:nth-child(6) td:nth-child(4), tr:nth-child(7) td:nth-child(4),
+tr:nth-child(2) td:nth-child(6), tr:nth-child(3) td:nth-child(6){
+    background-color:#42282a;
+}
+
+
+
+.lista li:hover{
+    color:#000;
+}
+
+main li{
+    font-size: 20px;
+}
+
+ul > li{  /* > Filho direto do ul*/
+    font-size: 40px;
+}
+
+main > h1::before{
+    content: "Nota:";
+    color: red;
+}
+
+.att::before{
+    content: "\271388";
+    color:red;
+}
+
+td,tr{
+        border:1px solid;
+   }
